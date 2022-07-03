@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: #F1F1F1;
+        }
+        top_header
+        {
+            display: flex;
+            /* justify-content: center; */
+             text-align: center; 
+
+           
+            
+        }
+        top_header>div{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            width: 600px;
+            height: 100px;
+           
+
+        }
+        mid_header{
+            display: flex;
+            text-align:center;
+        }
+        mid_header>.left{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 100px;
+            height: 200px;
+
+        }
+        mid_header>.mid{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 350px;
+            height: 200px;
+            margin-left: 20px;
+          
+        }
+        mid_header>.right{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 100px;
+            height: 200px;
+            margin-left: 20px;
+          
+        }
+        bottom{
+            display: flex;
+            text-align:center;
+            margin-top: 20px;
+
+        }
+        bottom>div{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            width: 600px;
+            height: 100px;
+           
+
+        }
+       
+        @media screen and (max-width: 600px) 
+        {
+            top_header {
+            display: flex;
+            /* justify-content: center; */
+             text-align: center; 
+
+           
+            
+        }
+        top_header>div{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            width: 300px;
+            height: 60px;
+           
+
+        }
+
+        }
+           
+       
+
+        @media screen and (max-width: 600px) {
+            mid_header{
+            display: flex;
+            flex-direction: column;
+            text-align:center;
+        }
+        mid_header>.left{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 300px;
+            height: 100px;
+            display: none;
+
+        }
+        mid_header>.mid{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 300px;
+            height: 120px;
+            margin-left: 0px;
+            
+          
+        }
+        mid_header>.right{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            margin-top: 20px;
+            width: 300px;
+            margin-left: 0px;
+           
+            height: 60px;
+           
+          
+        }     
+       }
+       @media screen and (max-width: 600px) 
+       {
+
+        bottom{
+            display: flex;
+            text-align:center;
+            margin-top: 20px;
+
+        }
+        bottom>div{
+            font-size: 50px;
+            color: #001845;
+            background-color: #FFFFFF;
+            border: 3px solid #48CAE4;
+            width: 300px;
+            height: 60px;
+           
+
+        }
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <top_header>
+            <div>A</div>
+        </top_header>
+        <mid_header>
+            <div class="left">B</div>
+            <div class="mid">C</div>
+            <div class="right">D</div>
+        </mid_header>
+        <bottom>
+            <div>E</div>
+    
+        </bottom>
+
+    </header>
+</body>
+</html>
